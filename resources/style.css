@@ -1,8 +1,13 @@
 body {
-    padding: 50px 135px 0px;
+    padding: 40px 135px 0px;
 }
 
 /* navbar */
+
+header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 .navbar {
     display: flex;
@@ -34,10 +39,88 @@ body {
     font-weight: 700;
 }
 
+/* section-1-explore-travel */
+
 .explore-travel {
-    background-image: url("../Images/explore_travel.png");
+    background-image: url("../Images/explore_travel.png") !important;
     height: 500px;
     border-radius: 16px;
-    width: 1170px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore-travel-div {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    height: 500px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.explore-travel-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding: 110px 0px 0px;
+    margin-bottom: 0;
+}
+
+.explore-travel-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 120px 40px;
+}
+
+.explore-travel-btns {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 760px;
+    height: 68px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 0 16px 0;
+}
+
+.explore-travel-btn {
+    width: 174px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0;
+}
+
+.explore-travel-btn-1 {
+    background: #FF5400;
+    justify-content: center;
+    gap: 8px;
+}
+
+.explore-travel-btn-text {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.explore-travel-btn-text-2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dropdown-logo {
+    width: 22px;
+    height: 22px;
 }
