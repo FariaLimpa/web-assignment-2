@@ -176,8 +176,71 @@ body {
 .popular-tour-img {
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    height: 540px;
+    height: 520px;
 }
+
+.popular-img {
+    height: 520px;
+}
+
+/* Section-3 Destination */
+
+.destination{
+    margin-top: 80px
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.destination-text {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 250px 50px;
+}
+
+.row {
+    display: flex;
+    height: 300px;
+    border-radius: 16px;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.place {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.img-row-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img-row {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+}
+
 
 
 
@@ -301,5 +364,4 @@ body {
         height: 340px;
         width: 100%;
     }
-
 }
