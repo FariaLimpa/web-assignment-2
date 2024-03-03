@@ -1,0 +1,34 @@
+body {
+    padding: 50px 135px 0px;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    width: 100%;
+}
+
+.nav-option {
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-option-text {
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-home{
+    color: #FF5400;
+    font-weight: 700;
+}
