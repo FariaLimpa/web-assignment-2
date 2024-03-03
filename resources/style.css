@@ -28,7 +28,16 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.nav-home{
+
+.nav-home {
     color: #FF5400;
     font-weight: 700;
+}
+
+.explore-travel {
+    background-image: url("../Images/explore_travel.png");
+    height: 500px;
+    border-radius: 16px;
+    width: 1170px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 }
